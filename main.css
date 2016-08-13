@@ -1,5 +1,5 @@
 @import url('fonts.css');
-@import url('intro/css/styles.css');
+@import url('intro/css/intro.css');
 
 header{
     width: 100%;
@@ -94,7 +94,7 @@ li a{
 
 .border-box{
     border-bottom: solid 2px;
-    width: 150px;
+    width: 140px;
     border-color: #a3d55d;
     margin-bottom: 70px;
     text-align: center;
@@ -159,7 +159,7 @@ li a{
 
 .border-box-case-study{
     border-bottom: solid 2px;
-    width: 165px;
+    width: 150px;
     border-color: #a3d55d;
     margin-bottom: 70px;
     text-align: center;
@@ -473,13 +473,13 @@ div.target2, div.target3{
     display: none;
 }
 
-.testimonial-title-marg{
+.case-study-title-marg{
     margin-left: 45px;
     margin-top: 5px;
     margin-bottom: 0;
 }
 
-.testimonial-text-marg{
+.case-study-text-marg{
     margin-left: 45px;
     margin-top: 0;
     margin-bottom: 0;
@@ -493,6 +493,7 @@ div.target2, div.target3{
     max-width: 225px;
     margin-top: 20px;
     margin-right: 20px;
+    color: #949493;
     cursor: pointer;
 }
 

@@ -10,6 +10,14 @@ $(window).scroll(function(){
   else sticky.removeClass('fixed');
 });
 
+$('#intro-container').backstretch([
+   "intro/images/showcase-1.jpg",
+   "intro/images/showcase-2.jpg",
+   "intro/images/showcase-3.jpg",
+   "intro/images/showcase-4.jpg",
+], {duration: 5000, fade: 1000});
+
+
 $('#box1').click(function(){
         $('.target1').show();
         $('.quote-text1').show();
