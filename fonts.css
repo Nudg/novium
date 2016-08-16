@@ -2,7 +2,7 @@ body{
     font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
 }
 
-body h2{
+h2{
     font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
     font-size: 1.45em;
     font-style: normal;
@@ -38,17 +38,9 @@ p{
     margin: 0 auto;
 }
 
-.nav-content{
-    line-height: 100px;
-}
-
-li a{
+a{
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
     font-size: 1.2em;
-}
-
-.navbar-position{
-    position: absolute;
-    line-height: 130px;
 }
 
 .quote-text1, .quote-text2, .quote-text3{

@@ -32,10 +32,9 @@ a {
     text-decoration: none;
 }
 a:hover{
-    color:#fff;
-    text-decoration:underline;
+    color: rgba(0,0,0,0.6);
 }
-h1,h2,h3,h4,h5,h6{
+h2,h3,h4,h5,h6{
     margin-top: 0px;
 }
 
@@ -84,6 +83,7 @@ div.logo-img{
     text-align: center;
     margin-top: 90px;
 }
+
 form{
     text-align: center;
     width: 100%;
